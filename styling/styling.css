@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  background-color: #121212;
+  font-family: "Poppins", sans-serif;
+
+  
+}
+
+.navbar-brand img{
+  width: "20";
+}
+
+.mynavbar {
+  border-bottom: 1px solid #892CDC;
+  
+}
+nav li:hover {
+  border-bottom: 2px solid #BC6FF1;
+}
+.login-box {
+  width: 40%;
+  border-radius: 15px;
+  margin: 10vh auto; 
+  display: block;
+  padding: 6vh 2vw;
+  background-color: white;
+
+}
+.footer {
+  background-color: #BC6FF1 !important;
+}
+.footer a {
+  border: 0px;
+  padding: 0px 6px 4px 6px;
+}
+/* about page related css */
+.aboutbox {
+  display: flex;
+  color: white;
+}
+.about-box-items img {
+  width: 75%;
+}
+.extra-about-1 {
+  background-color: #52057B ;
+  color: white !important;
+  padding: 10vh 5vw;
+}
+.extra-about-2 {
+  background-color: #52057B;
+  color: white !important;
+  padding: 35vh 20vw;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/parallax.jpg");
+  /* Full height */
+  height: 100%;
+  font-size: large;
+  color: white;
+  padding: 10vh 10vw;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/parallax2.jpg");
+  /* Full height */
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+  padding: 10vh 10vw;
+  font-family: 'Oswald', sans-serif; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-text{
+  color: black;
+}
+.card-title{
+  color: black;
+  font-weight: 500;
+}
+/* blog related css */
+.blog-card{
+  padding: 3vh 3vw;
+  position: relative;
+  margin: 1vh 10vw ;
+}
+
+.extra-about-2 a{
+  color: aqua;
+}
+/* about page related css ends here */
+
+/* css for view.php */
+
+.heading h1{
+  color: white !important;
+}
